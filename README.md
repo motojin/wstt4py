@@ -1,8 +1,4 @@
-# wstt4py
-
----
-
-Web Service Tutorial for python
+# Web Service Tutorial for python
 
 
 ## はじめに
