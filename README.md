@@ -1,4 +1,4 @@
-# Web Service Tutorial for python
+# Web Service Tutorial for Python
 
 
 ## はじめに
@@ -33,6 +33,13 @@ $ git clone https://github.com/motojin/wstt4py.git
 $ cd wstt4py
 ```
 
+### Flask 起動
+
+```bash
+$ cd [サンプルディレクトリ]
+$ export FLASK_ENV=development
+$ python3 server.py
+```
 
 ### Tutorial
 
@@ -46,4 +53,6 @@ $ cd wstt4py
   * 40_flask_jinja2_basic
 * GET/POSTメソッド
   * 50_flask_get_post_basic
+* FlaskとMaterialize
+  * 60_flask_materialize
 
