@@ -55,4 +55,6 @@ $ python3 server.py
   * 50_flask_get_post_basic
 * FlaskとMaterialize
   * 60_flask_materialize
+* FlaskとSQLite
+  * 70_flask_sqlite_basic
 
