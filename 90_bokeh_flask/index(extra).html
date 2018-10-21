@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>motojin.com,Inc. - Serverless + SPA + IoT</title>
+  <meta name="description" content="Going Serverless, Build Applications with SPA and IoT">
+  <meta name="author" content="moto_lee">
+  <meta name="viewport" content="width=device-width,initial-scale=1"> == $0
+
+  <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="canonical" href="https://www.motojin.com">
+</head>
+<body>
+  <h1>Hello</h1>
+  <h2 id="message">World!</h2>
+  <form action="/value" method="get">
+    <button name="get_value" value="from get">get submit</button>
+  </form>
+  <form action="/value" method="post">
+    <button name="post_value" value="from post">post submit</button>
+  </form>
+  <script src="{{url_for('static', filename='index.js')}}"></script>
+</body>
+</html>
