@@ -15,8 +15,33 @@
   </form>
   <form action="/value" method="post">
     <button name="post_value" value="from post">post submit</button>
+      <p>visitor </p>
+      <form action="text_r.asp"method="post">
+      <table border=0>
+        <tr>
+          <td> What is your name?: </td>
+          <td><input type=text name=username size=10>
+          </td>
+        </tr>
+        <tr>
+          <td> What is your age?: </td>
+          <td><input type=text name=userage size=5>
+          </td>
+        </tr>
+        <tr>
+          <td> Where are you living?: </td>
+          <td><input type=text name=userarea size=10>
+          </td>
+        </tr>
+          <td colspan=2 align=center><input type="submit"
+            value="submit">
+            <input type="reset" value="reset" id=reset1 name=reset1>
+          </td>
+        </tr>
+      </table>
+    </form>
+      </form>
   </form>
   <script src="{{url_for('static', filename='index.js')}}"></script>
 </body>
 </html>
-
